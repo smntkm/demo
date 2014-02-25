@@ -50,4 +50,5 @@ group :test, :development do
   gem 'capybara-webkit'
   gem 'simplecov', require: false
   gem 'simplecov-rcov', require: false
+  gem 'ci_reporter'
 end

@@ -4,3 +4,5 @@
 require File.expand_path('../config/application', __FILE__)
 
 Demo::Application.load_tasks
+
+require 'ci/reporter/rake/rspec'     # use this if you're using RSpec
